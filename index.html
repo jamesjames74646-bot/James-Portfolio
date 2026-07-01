@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James E | Personal Portfolio</title>
+    <meta name="description" content="Portfolio of James E, a 3rd-year B.A. English student at Voorhees College, Vellore. Photoshop design and MS Office showcase.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor-dot" id="cursor-dot"></div>
+    <div class="custom-cursor-outline" id="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#" class="logo" id="nav-logo">
+                <span class="logo-serif">J</span><span class="logo-sans">E</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+            <button class="mobile-nav-toggle" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-bg-gradients">
+                <div class="gradient-sphere sphere-1"></div>
+                <div class="gradient-sphere sphere-2"></div>
+            </div>
+            <div class="hero-container">
+                <div class="hero-content">
+
+                    <span class="hero-subtitle scroll-reveal">Student Portfolio</span>
+                    <h1 class="hero-title scroll-reveal">
+                        <span class="serif-title">James E</span> 
+                        <span class="tagline">B.A. English Student &amp; Designer</span>
+                    </h1>
+                    <p class="hero-description scroll-reveal">
+                        I am currently studying in my 3rd year at Voorhees College, Vellore. Outside my literature classes, I enjoy creating designs in Photoshop and formatting reports and slides in MS Office.
+                    </p>
+                    <div class="hero-actions scroll-reveal">
+                        <a href="#about" class="btn btn-primary">About Me</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-visual scroll-reveal">
+                    <div class="profile-display-card">
+                        <img src="assets/profile.jpg" alt="James E" class="profile-display-img">
+                        <div class="profile-card-glow"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span class="mouse-icon">
+                    <span class="mouse-wheel"></span>
+                </span>
+                <span class="indicator-text">Scroll Down</span>
+            </div>
+        </section>
+
+        <!-- About Section (About Me) -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Introduction</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text scroll-reveal">
+                        <h3 class="about-heading">Voorhees College, Vellore</h3>
+                        <p class="about-para">
+                            Hi! I am James E. I'm currently studying in my 3rd year of <strong>B.A. English</strong> at <em>Voorhees College</em>, Vellore. My college has a beautiful historic background dating back to 1898, which makes studying classical stories, romantic poetry, and plays very inspiring.
+                        </p>
+                        <p class="about-para">
+                            Alongside my college studies, I have a deep interest in digital design. I self-taught myself Adobe Photoshop to create book cover designs and visual posters. I also developed good skills in MS Word and PowerPoint, helping me format assignments, reports, and class presentation slides cleanly and professionally.
+                        </p>
+                        <div class="education-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <span class="timeline-year">2024 - Present</span>
+                                <h4 class="timeline-title">B.A. English (3rd Year)</h4>
+                                <p class="timeline-institution">Voorhees College, Vellore</p>
+                                <p class="timeline-desc">Focusing on romantic poetry, Elizabethan drama analysis, creative writing, and academic essays.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-stats scroll-reveal">
+                        <div class="stats-glass-card">
+                            <div class="stat-item">
+                                <span class="stat-number">3rd</span>
+                                <span class="stat-label">Year of College</span>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat-item">
+                                <span class="stat-number">20+</span>
+                                <span class="stat-label">Visual Projects</span>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat-item">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Original Templates</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section (Skills) -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="section-tag">What I Do</span>
+                    <h2 class="section-title">My Skills</h2>
+                </div>
+                <div class="skills-grid">
+                    <!-- Photoshop skill card -->
+                    <div class="skill-card scroll-reveal" id="skill-photoshop">
+                        <div class="skill-icon-wrapper photoshop-glow">
+                            <i class="fa-solid fa-image"></i>
+                        </div>
+                        <h3 class="skill-card-title">Adobe Photoshop</h3>
+                        <p class="skill-card-description">
+                            I use Photoshop to edit photos, make posters, and design book covers. I know how to work with layers, combine images, and adjust colors.
+                        </p>
+                        <ul class="skill-tags">
+                            <li><span class="badge">Photo Editing</span></li>
+                            <li><span class="badge">Poster Design</span></li>
+                            <li><span class="badge">Book Covers</span></li>
+                            <li><span class="badge">Layering</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Graphic Design skill card -->
+                    <div class="skill-card scroll-reveal" id="skill-graphicdesign">
+                        <div class="skill-icon-wrapper design-glow">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                        <h3 class="skill-card-title">Graphic Design</h3>
+                        <p class="skill-card-description">
+                            I love designing layouts, logos, and banners. I have a good eye for choosing fonts and colors to make designs look clean and modern.
+                        </p>
+                        <ul class="skill-tags">
+                            <li><span class="badge">Layout Design</span></li>
+                            <li><span class="badge">Color Choice</span></li>
+                            <li><span class="badge">Logos</span></li>
+                            <li><span class="badge">Banners</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- English skill card -->
+                    <div class="skill-card scroll-reveal" id="skill-english">
+                        <div class="skill-icon-wrapper english-glow">
+                            <i class="fa-solid fa-pen-nib"></i>
+                        </div>
+                        <h3 class="skill-card-title">English &amp; Writing</h3>
+                        <p class="skill-card-description">
+                            I write essays, stories, and summaries for my college classes. I can check for grammar mistakes, proofread assignments, and edit sentences to read better.
+                        </p>
+                        <ul class="skill-tags">
+                            <li><span class="badge">Essay Writing</span></li>
+                            <li><span class="badge">Creative Writing</span></li>
+                            <li><span class="badge">Grammar Check</span></li>
+                            <li><span class="badge">Proofreading</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- MS Office skill card -->
+                    <div class="skill-card scroll-reveal" id="skill-msoffice">
+                        <div class="skill-icon-wrapper office-glow">
+                            <i class="fa-solid fa-file-word"></i>
+                        </div>
+                        <h3 class="skill-card-title">Microsoft Office</h3>
+                        <p class="skill-card-description">
+                            I use Word to write assignments and format reports. I make PowerPoint slides for college seminar presentations, and use Excel for simple tables.
+                        </p>
+                        <ul class="skill-tags">
+                            <li><span class="badge">Word Reports</span></li>
+                            <li><span class="badge">PowerPoint Slides</span></li>
+                            <li><span class="badge">Excel Tables</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Python skill card -->
+                    <div class="skill-card scroll-reveal" id="skill-python">
+                        <div class="skill-icon-wrapper python-glow">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <h3 class="skill-card-title">Basic Python</h3>
+                        <p class="skill-card-description">
+                            I know the basics of Python programming. I can write simple scripts, use conditions and loops, and run basic coding tasks.
+                        </p>
+                        <ul class="skill-tags">
+                            <li><span class="badge">Python Basics</span></li>
+                            <li><span class="badge">Simple Scripts</span></li>
+                            <li><span class="badge">Programming</span></li>
+                            <li><span class="badge">Basic Logic</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Section (No Form) -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info scroll-reveal">
+                        <span class="section-tag">Write to me</span>
+                        <h2 class="section-title">Get in Touch</h2>
+                        <p class="contact-intro">
+                            If you want to discuss graphic design, English literature, or Voorhees College, feel free to contact me directly.
+                        </p>
+                        <div class="contact-methods">
+                            <div class="method-item">
+                                <div class="method-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="method-details">
+                                    <span>My Email</span>
+                                    <a href="mailto:jamesjames74646@gmail.com">jamesjames74646@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="method-item">
+                                <div class="method-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                                <div class="method-details">
+                                    <span>My WhatsApp</span>
+                                    <a href="https://wa.me/917904047011" target="_blank">+91 7904047011</a>
+                                </div>
+                            </div>
+                            <div class="method-item">
+                                <div class="method-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="method-details">
+                                    <span>College Location</span>
+                                    <p>Voorhees College, Vellore, Tamil Nadu, India</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-details-card-wrapper scroll-reveal">
+                        <div class="contact-glass-card quick-links-card">
+                            <div class="glass-card-header">
+                                <i class="fa-solid fa-link"></i>
+                                <h3>Quick Channels</h3>
+                            </div>
+                            <p class="glass-card-text">
+                                Click below to chat with me directly on WhatsApp or send an email.
+                            </p>
+                            <div class="contact-action-icons">
+                                <a href="https://wa.me/917904047011" target="_blank" class="action-icon-btn whatsapp-btn" aria-label="Chat on WhatsApp">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                    <span>WhatsApp</span>
+                                </a>
+                                <a href="mailto:jamesjames74646@gmail.com" class="action-icon-btn email-btn" aria-label="Send an Email">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <span>Email</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-serif">J</span><span class="logo-sans">E</span>
+                </a>
+                <p class="footer-tagline">3rd Year B.A. English Student, Voorhees College.</p>
+            </div>
+            <div class="footer-links-group">
+                <ul class="footer-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </div>
+            <div class="footer-meta">
+                <p>&copy; 2026 James E. All Rights Reserved.</p>
+                <p>Voorhees College, Vellore, Tamil Nadu.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
