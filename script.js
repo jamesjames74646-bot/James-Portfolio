@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     outline.style.width = '55px';
                     outline.style.height = '55px';
                     outline.style.borderColor = 'var(--color-secondary)';
-                    outline.style.backgroundColor = 'rgba(0, 245, 212, 0.05)';
+                    outline.style.backgroundColor = 'rgba(39, 174, 96, 0.05)';
                 });
                 el.addEventListener('mouseleave', () => {
                     outline.style.width = '32px';
